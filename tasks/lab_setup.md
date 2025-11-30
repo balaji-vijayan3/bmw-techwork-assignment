@@ -38,20 +38,6 @@ git --version
 
 minikube start --driver=docker
 
-Using Docker driver with root privileges
-* Starting "minikube" primary control-plane node in "minikube" cluster
-* Pulling base image v0.0.48 ...
-* Downloading Kubernetes v1.34.0 preload ...
-    > gcr.io/k8s-minikube/kicbase...:  488.52 MiB / 488.52 MiB  100.00% 9.93 Mi
-    > preloaded-images-k8s-v18-v1...:  337.07 MiB / 337.07 MiB  100.00% 4.27 Mi
-* Creating docker container (CPUs=2, Memory=1967MB) ...
-* Preparing Kubernetes v1.34.0 on Docker 28.4.0 ...
-* Configuring bridge CNI (Container Networking Interface) ...
-* Verifying Kubernetes components...
-  - Using image gcr.io/k8s-minikube/storage-provisioner:v5
-* Enabled addons: default-storageclass, storage-provisioner
-* Done! kubectl is now configured to use "minikube" cluster and "default" namespace by default
-
 #Namespace Creation
 
 kubectl create namespace bmw-techworks-env
